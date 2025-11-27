@@ -196,7 +196,7 @@ def read_cli_arguments(envs: Envs) -> _CLIArgs:
         help="接続を受け付けるホストアドレスです。",
     )
     parser.add_argument(
-        "--port", type=int, default=10101, help="接続を受け付けるポート番号です。"
+        "--port", type=int, default=6789, help="接続を受け付けるポート番号です。"
     )
     parser.add_argument(
         "--use_gpu",
